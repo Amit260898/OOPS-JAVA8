@@ -1,0 +1,16 @@
+package main;
+
+import java.util.HashMap;
+
+public class MapHashMap {
+	
+	public static void main(String[] args) {
+		
+		HashMap hm =new HashMap<>();
+		
+		hm.put(101, "Amit");
+		
+		
+	}
+
+}

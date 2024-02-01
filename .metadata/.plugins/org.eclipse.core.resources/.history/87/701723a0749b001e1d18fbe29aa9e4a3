@@ -1,0 +1,31 @@
+package Example;
+
+import java.nio.channels.SelectableChannel;
+import java.util.List;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+
+import javax.print.attribute.standard.JobMessageFromOperator;
+
+public class EmpCount {
+	
+	
+	
+	public static void main(String[] args) {
+		
+	List<Employee> empList=	Database.getEmployees();
+	
+	empList
+	.stream()
+	.collect(Collectors.groupingBy(e -> e.getDept(), Collectors.counting()))
+	.entrySet().forEach(System.out::println);
+	
+	 
+
+	
+	
+
+	
+	}
+
+}

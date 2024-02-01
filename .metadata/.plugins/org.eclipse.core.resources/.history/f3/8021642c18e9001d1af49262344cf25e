@@ -1,0 +1,36 @@
+package InterviewQuestionsJava8;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class CountEachCharacterOccurenceinString {
+	
+	public static void main(String[] args) {
+		
+		String str="ilovejavatechie";
+		
+		
+		
+		
+		
+		
+	}
+	
+	public static void getCharCount(String name) {
+		
+		Map<String, Integer> map=new HashMap<>();
+		
+		char[] ch=name.toCharArray();
+		
+		for (char c : ch) {
+			
+			if(map.containsKey(c)) {
+				
+				map.put(c, map.get(c)+1);
+			}
+			
+		}
+		
+	}
+
+}

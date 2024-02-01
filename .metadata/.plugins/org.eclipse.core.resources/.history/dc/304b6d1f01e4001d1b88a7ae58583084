@@ -1,0 +1,11 @@
+package Lambda;
+
+import java.util.List;
+
+public class BookService {
+	
+	public List<Book> getBooksInSort(){
+		List<Book>=new BookDAO().getBooks();
+	}
+
+}

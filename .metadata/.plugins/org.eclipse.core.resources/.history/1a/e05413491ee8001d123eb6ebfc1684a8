@@ -1,0 +1,22 @@
+package StreamMethods;
+
+import java.util.function.BiConsumer;
+
+public class BiConsumerExample implements BiConsumer<String, Integer>{
+
+	@Override
+	public void accept(String i1, Integer i2) {
+		// TODO Auto-generated method stub
+		System.out.println("input 1"+i1+"input 2"+i2);
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		BiConsumer<String, Integer> biConsumer=new BiConsumerExample();
+		biConsumer.accept("JavaTechie", 53000);
+	}
+	
+	
+
+}

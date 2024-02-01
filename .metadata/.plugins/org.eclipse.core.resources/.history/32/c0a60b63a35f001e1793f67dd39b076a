@@ -1,0 +1,8 @@
+package ThreadMethodsAndConstructors;
+
+public class Snippet {
+	public static void main(String[] args) {
+		System.out.println("This thread is executed by"+ Thread.currentThread().getName());
+	}
+}
+

@@ -1,0 +1,25 @@
+package main;
+
+import java.util.Collection;
+import java.util.LinkedList;
+
+public class CollectionLinkedList {
+
+	public static void main(String[] args) {
+		
+	
+	LinkedList l1=new LinkedList();
+	l1.add(100);
+	l1.add(300);
+	l1.add(102.4);
+	l1.add("ami");
+	l1.add('c');
+	
+	System.out.println(l1);
+	
+	l1.removeFirst();
+	System.out.println(l1);
+	System.out.println(l1.getFirst());
+	
+	}
+}

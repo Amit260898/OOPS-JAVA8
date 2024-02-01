@@ -1,0 +1,25 @@
+package main;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.management.MalformedObjectNameException;
+
+public class MapDemo {
+	
+	public static void main(String[] args) {
+		
+		Map map=new HashMap<>();
+		map.put(101, "Amit");
+		map.put(102, "Sumit");
+		map.put(103, "Ajay");
+		
+		System.out.println(map.containsKey(101));
+		
+		map.remove(101);
+		
+		System.out.println(map);
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package InterviewQuestionsJava8;
+
+public class FetchCommonElements {
+	
+	public static void main(String[] args) {
+		
+		int[] arr1= {1,2,3,4,5};
+		int[] arr2= {5,7,3,1,5};
+		fetchCommon(arr1,arr2);
+	}
+	
+	public static void fetchCommon(int[] arr1, int[]) {
+		
+	}
+
+}

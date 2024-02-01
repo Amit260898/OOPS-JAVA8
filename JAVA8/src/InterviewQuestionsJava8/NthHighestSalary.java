@@ -1,0 +1,45 @@
+package InterviewQuestionsJava8;
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
+
+public class NthHighestSalary {
+	
+	public static void main(String[] args) {
+		
+		int[] numbers= {1,23,11,45,19,45};
+		
+		Integer integer = Arrays.stream(numbers).boxed().distinct()
+		.sorted(Comparator.reverseOrder()).collect(Collectors.toList()).get(1);
+		System.out.println(integer);
+		Arrays.stream(numbers).boxed().distinct().sorted(Comparator.reverseOrder()).skip(1).limit(1).forEach(System.out::println);;
+		Map<String, Integer> map=new HashMap<>();
+		map.put("eight",8);
+		map.put("four",4);
+		map.put("ten",10);
+		map.put("two",3);
+		map.put("seven",3);
+		
+		System.out.println(getNthHighestSalary(2,map));
+	}
+	
+	static Entry<Integer, List<String>> getNthHighestSalary(int n,Map<String, Integer> map){
+		
+		Entry<Integer, List<String>> entry = map.entrySet().stream()
+				.collect(Collectors.groupingBy(Map.Entry::getValue,
+				Collectors.mapping(Map.Entry::getKey,Collectors.toList())))
+		.entrySet().stream().sorted(Map.Entry.comparingByKey(Comparator.reverseOrder()))
+		.collect(Collectors.toList()).get(n-1);
+		
+		return entry;
+		
+		
+	}
+
+}

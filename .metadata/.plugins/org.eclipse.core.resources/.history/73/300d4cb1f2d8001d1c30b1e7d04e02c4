@@ -1,0 +1,21 @@
+package Interface;
+
+public class NiceCar {
+	
+	private Engine engine;
+	
+	public NiceCar() {
+		
+		engine=new PowerEngine();
+	}
+
+	public NiceCar(Engine engine) {
+		super();
+		this.engine = engine;
+	}
+	
+	public void start() {
+		engine.start();
+	}
+
+}

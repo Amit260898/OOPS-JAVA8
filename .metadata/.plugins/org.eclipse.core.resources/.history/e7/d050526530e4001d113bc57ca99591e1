@@ -1,0 +1,18 @@
+package Example;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Database {
+	
+	public static List<Employee> getEmployees(){
+		
+		List<Employee> employees=new ArrayList<>();
+		
+		employees.add(new Employee(176,"Amit","IT",55000));
+		employees.add(new Employee(777,"Sumit","CS",35000));
+		employees.add(new Employee(178,"Geeta","Mechanical",95000));
+		employees.add(new Employee(176,"Amit","IT",45000));
+	}
+
+}

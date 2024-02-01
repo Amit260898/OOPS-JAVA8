@@ -1,0 +1,15 @@
+package intoduction;
+
+public class TestMain {
+	
+	Boolean boolean1;
+	
+	static {
+		System.out.println("program can execute without main");
+	}
+	public static void main(String[] args) {
+		TestMain testMain=new 	TestMain();
+		System.out.println(testMain.boolean1);
+	}
+
+}

@@ -1,0 +1,10 @@
+package ExtendDemo;
+
+public interface B {
+	
+	void greeting();
+	default void fun() {
+		System.out.println("I'm in A");
+	}
+
+}

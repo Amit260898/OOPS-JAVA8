@@ -1,0 +1,12 @@
+package main;
+
+import java.util.TreeMap;
+
+public class MapTreeMap {
+	
+	public static void main(String[] args) {
+		
+		TreeMap map=new TreeMap<>();
+	}
+
+}

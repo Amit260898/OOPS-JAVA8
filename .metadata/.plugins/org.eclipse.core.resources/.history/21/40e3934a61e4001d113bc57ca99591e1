@@ -1,0 +1,17 @@
+package Example;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class SortMapDemo {
+	
+	public static void main(String[] args) {
+		
+		Map<String, Integer> map=new HashMap<>();
+		map.put("a",8);
+		map.put("b",4);
+		map.put("c",10);
+		map.put("d",3);
+	}
+
+}

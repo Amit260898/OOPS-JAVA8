@@ -1,0 +1,33 @@
+package ConsumerPredicateSupplier;
+
+import java.util.function.Predicate;
+
+public class PredicateDemo implements Predicate<Integer>{
+
+	@Override
+	public boolean test(Integer t) {
+		// TODO Auto-generated method stub
+		if(t%2==0) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+		Predicate<Integer> predicate=(t)->{
+			if(t%2==0) {
+				return true;
+			}else {
+				return false;
+			}
+		};
+//		PredicateDemo pd=new PredicateDemo();
+//		System.out.println(pd.test(19));
+		
+		System.out.println(predicate.test(8));
+	}
+
+}

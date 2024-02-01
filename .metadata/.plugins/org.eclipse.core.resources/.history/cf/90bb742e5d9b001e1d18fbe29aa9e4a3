@@ -1,0 +1,11 @@
+package intoduction;
+
+public class TestMain {
+	
+
+	static {
+		System.out.println("program can execute without main");
+	}
+	
+
+}

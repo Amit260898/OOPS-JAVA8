@@ -1,0 +1,15 @@
+package Inheritance;
+
+public class BoxWeight extends Box{
+	
+	double weight;
+	
+	public BoxWeight(double weight) {
+		// TODO Auto-generated constructor stub
+		this.weight=weight;
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,17 @@
+package ComparableComparator;
+
+import java.util.ArrayList;
+
+public class SortExample {
+	
+	public static void main(String[] args) {
+		
+		ArrayList<Student> students=new ArrayList<>();
+		students.add(new Student(12,"Amit","Allahabad"));
+		students.add(new Student(18,"Sumit","Delhi"));
+		students.add(new Student(9,"Ajay","Prayagraj"));
+		
+		System.out.println(students);
+	}
+
+}

@@ -1,0 +1,8 @@
+package ExtendDemo;
+
+public interface B {
+	
+	void greeting();
+	void fun();
+
+}

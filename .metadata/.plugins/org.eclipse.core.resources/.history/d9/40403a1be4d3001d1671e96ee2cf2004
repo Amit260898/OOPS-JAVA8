@@ -1,0 +1,9 @@
+package Inheritance;
+
+public class BoxPrice {
+	
+	double price;
+	
+	
+
+}

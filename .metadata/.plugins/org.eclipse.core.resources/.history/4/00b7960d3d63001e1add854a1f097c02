@@ -1,0 +1,29 @@
+package InterviewQuestionsJava8;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class ReverseWordByWord {
+	
+	public static void main(String[] args) {
+		
+		String str="Welcome to CloudTech";
+		
+		List<String> li=Arrays.stream(str.split("")).sorted().collect(Collectors.toList());
+		System.out.println(li);
+		String[] st=str.split(" ");
+		String result="";
+		
+		for(int i=st.length-1;i>=0;i--) {
+			
+			if(i==0) {
+				result=result+st[i];
+			}else {
+				result=result+st[i]+" ";
+			}
+		}
+		System.out.println(result);
+	}
+
+}

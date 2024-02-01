@@ -1,0 +1,13 @@
+package Lambda;
+
+public interface Calculator {
+	
+	//void switchOn();
+	
+//	void sum(int input);
+	
+	int subtract(int a, int b);
+
+}
+
+

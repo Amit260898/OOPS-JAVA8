@@ -1,0 +1,17 @@
+package AbstractDEMO;
+
+
+public abstract class Parent {
+	
+	int age;
+	
+	
+	
+	public Parent(int age) {
+		super();
+		this.age = age;
+	}
+	abstract void career();
+	abstract void partner();
+
+}

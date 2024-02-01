@@ -1,0 +1,10 @@
+package Comparing;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Student amit=new Student(1, 87.5);
+	}
+
+}

@@ -1,0 +1,24 @@
+package Lambda;
+
+import java.util.Collections;
+import java.util.List;
+
+public class BookService {
+	
+	public List<Book> getBooksInSort(){
+		List<Book> books=new BookDAO().getBooks();
+		
+		Collections.sort(books,new MyComparator());
+		
+		return books;
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		BookService bk=new BookService();
+		System.out.println(bk.getBooksInSort());
+	}
+
+}

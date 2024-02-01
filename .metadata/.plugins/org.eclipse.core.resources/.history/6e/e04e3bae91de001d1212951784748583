@@ -1,0 +1,15 @@
+package Comparing;
+
+public class Student implements Comparable<T>{
+	
+	int rno;
+	float marks;
+	public Student(int rno, float marks) {
+		super();
+		this.rno = rno;
+		this.marks = marks;
+	}
+	
+	
+
+}

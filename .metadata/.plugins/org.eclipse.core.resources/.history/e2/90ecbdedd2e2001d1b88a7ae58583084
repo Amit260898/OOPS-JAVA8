@@ -1,0 +1,21 @@
+package main;
+
+import java.util.TreeMap;
+
+import javax.management.MalformedObjectNameException;
+
+public class MapTreeMap {
+	
+	public static void main(String[] args) {
+		
+		TreeMap map=new TreeMap<>();
+		
+		map.put(105, "Amit");
+		map.put(107, "Sumit");
+		map.put(101, "Geemit");
+		
+		System.out.println(map);
+		System.out.println(map.ceilingEntry(102));
+	}
+
+}

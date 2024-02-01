@@ -1,0 +1,18 @@
+package main;
+
+import java.util.Vector;
+
+public class CollectionVector {
+	public static void main(String[] args) {
+		
+	
+	Vector vector=new Vector<>(); //initial capacity 10
+	
+	vector.add(20);
+	vector.add(1,"rahul");
+	vector.addElement("amit");
+	
+	System.out.println(vector);
+
+	}
+}

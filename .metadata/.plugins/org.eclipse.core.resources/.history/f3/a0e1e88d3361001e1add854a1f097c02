@@ -1,0 +1,32 @@
+package ThreadMethodsAndConstructors;
+
+public class SleepDemo2 extends Thread{
+	
+	public void run() {
+		try {
+			for(int i=0;i<=5;i++) {
+				
+				
+				System.out.println(i+" "+Thread.currentThread().getName());
+				//Thread.sleep(1000);
+			}
+		}catch (Exception e) {
+			// TODO: handle exception
+			System.out.println(e);
+		}
+	}
+	
+	
+	
+	public static void main(String[] args) throws InterruptedException {
+		
+		SleepDemo2 t1=new SleepDemo2();
+		t1.start();
+		t1.interrupt();
+		
+//		SleepDemo2 t2=new SleepDemo2();
+//		t2.start();
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package ExtendDemo;
+
+public class Main implements A,B{
+
+	@Override
+	public void fun() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void greeting() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

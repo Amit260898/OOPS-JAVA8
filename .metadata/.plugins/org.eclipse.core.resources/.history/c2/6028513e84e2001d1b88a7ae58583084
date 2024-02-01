@@ -1,0 +1,19 @@
+package main;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapDemo {
+	
+	public static void main(String[] args) {
+		
+		Map map=new HashMap<>();
+		map.put(101, "Amit");
+		map.put(102, "Sumit");
+		map.put(103, "Ajay");
+		
+		System.out.println(map);
+		
+	}
+
+}

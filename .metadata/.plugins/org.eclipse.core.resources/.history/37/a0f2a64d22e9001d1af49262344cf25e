@@ -1,0 +1,13 @@
+package InterviewQuestionsJava8;
+
+import java.util.Map;
+
+public class FindDupicateElement {
+	
+	String str="amitisagoodboy";
+	
+	char[] ch=str.toCharArray();
+	
+	//Map<Character, Integer>
+
+}

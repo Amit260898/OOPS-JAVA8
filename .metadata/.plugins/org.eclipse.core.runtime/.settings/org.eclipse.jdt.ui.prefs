@@ -1,0 +1,26 @@
+content_assist_add_import=true
+content_assist_autoactivation=true
+content_assist_autoactivation_delay=0
+content_assist_autoactivation_triggers_java=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ._@
+content_assist_autoactivation_triggers_javadoc=@\#
+content_assist_autoinsert=true
+content_assist_case_sensitivity=false
+content_assist_disable_completion_trigger_chars=false
+content_assist_fill_method_arguments=true
+content_assist_guess_method_arguments=true
+content_assist_insert_completion=false
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Runnable"><rhs name\="java.lang.Thread"/><rhs name\="ThreadCases.MyThread1"/><rhs name\="ThreadMethodsAndConstructors.ThreadNameDemo"/><rhs name\="ThreadMethodsAndConstructors.DaemonThread"/><rhs name\="ThreadMethodsAndConstructors.ThreadPriority"/><rhs name\="ThreadMethodsAndConstructors.SleepThread"/><rhs name\="ThreadMethodsAndConstructors.SleepDemo2"/><rhs name\="ThreadJoin.Medical"/><rhs name\="ThreadJoin.TestDrive"/><rhs name\="ThreadJoin.OfficerSign"/></lhs><lhs name\="java.lang.Thread"><rhs name\="java.lang.Thread"/><rhs name\="ThreadCases.MyThread1"/><rhs name\="ThreadMethodsAndConstructors.ThreadNameDemo"/><rhs name\="ThreadMethodsAndConstructors.DaemonThread"/><rhs name\="ThreadMethodsAndConstructors.ThreadPriority"/><rhs name\="ThreadMethodsAndConstructors.SleepThread"/><rhs name\="ThreadMethodsAndConstructors.SleepDemo2"/><rhs name\="ThreadJoin.Medical"/><rhs name\="ThreadJoin.TestDrive"/><rhs name\="ThreadJoin.OfficerSign"/></lhs><lhs name\="ThreadCases.Case2"><rhs name\="ThreadCases.Case2"/></lhs><lhs name\="ThreadCases.MyThread1"><rhs name\="ThreadCases.MyThread1"/></lhs><lhs name\="ThreadMethodsAndConstructors.ThreadNameDemo"><rhs name\="ThreadMethodsAndConstructors.ThreadNameDemo"/></lhs><lhs name\="ThreadMethodsAndConstructors.DaemonThread"><rhs name\="ThreadMethodsAndConstructors.DaemonThread"/></lhs><lhs name\="ThreadMethodsAndConstructors.ThreadPriority"><rhs name\="ThreadMethodsAndConstructors.ThreadPriority"/></lhs><lhs name\="ThreadMethodsAndConstructors.SleepThread"><rhs name\="ThreadMethodsAndConstructors.SleepThread"/></lhs><lhs name\="ThreadMethodsAndConstructors.SleepDemo2"><rhs name\="ThreadMethodsAndConstructors.SleepDemo2"/></lhs><lhs name\="ThreadJoin.Medical"><rhs name\="ThreadJoin.Medical"/></lhs><lhs name\="ThreadJoin.TestDrive"><rhs name\="ThreadJoin.TestDrive"/></lhs><lhs name\="ThreadJoin.OfficerSign"><rhs name\="ThreadJoin.OfficerSign"/></lhs></history>
+content_assist_number_of_computers=15
+content_assist_prefix_completion=false
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+content_assist_show_visible_proposals=true
+content_assist_sorter=org.eclipse.jdt.ui.RelevanceSorter
+eclipse.preferences.version=1
+markOccurrences=false
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=20
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

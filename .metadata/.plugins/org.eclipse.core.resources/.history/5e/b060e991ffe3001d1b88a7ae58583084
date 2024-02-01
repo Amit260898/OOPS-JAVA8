@@ -1,0 +1,15 @@
+package Lambda;
+
+import java.awt.List;
+import java.util.ArrayList;
+
+public class BookDAO {
+
+	public List<Book> getBooks(){
+		
+		List<Book> books=new ArrayList<>();
+		
+		return books;
+		
+	}
+}

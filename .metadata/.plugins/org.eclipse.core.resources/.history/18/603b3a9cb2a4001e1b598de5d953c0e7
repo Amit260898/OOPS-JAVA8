@@ -1,0 +1,15 @@
+package Functional;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		String string="68121256901";
+		if (string.length()==11) {
+			string=string.substring(string.length()-7, string.length()-4);
+			
+		}
+		System.out.println(string);
+	}
+
+}

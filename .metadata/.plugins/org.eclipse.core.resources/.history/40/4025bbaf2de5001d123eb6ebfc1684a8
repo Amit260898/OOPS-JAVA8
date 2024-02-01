@@ -1,0 +1,12 @@
+package MapAndFlatMap;
+
+import java.util.List;
+
+public class MapVFlatMap {
+
+	List<Customer> customers=EkartDatabase.getAll();
+	
+	//List<Customer> convert List<String>---->data transformation
+	
+	customers.
+}

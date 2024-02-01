@@ -1,0 +1,8 @@
+package Comparing;
+
+public class Student {
+	
+	int rno;
+	float marks;
+
+}

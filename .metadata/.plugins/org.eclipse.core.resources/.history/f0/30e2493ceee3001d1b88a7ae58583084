@@ -1,0 +1,11 @@
+package Threadd;
+
+public class Test extends Thread{
+	
+	@Override
+	public void run() {
+		
+		System.out.println("thread task");
+	}
+
+}

@@ -1,0 +1,22 @@
+package MapAndReduce;
+
+
+
+public class MapReduceEx {
+	
+	public static void main(String[] args) {
+		
+		
+		//getEmployee whose grade is A and x
+		//getSalary
+	double averageSalary=EmployeeDataBase.getEmployees().stream()
+		.filter(employee->employee.getGrade().equals("A"))
+		.map(employee-> employee.getSalary())
+		.mapToDouble(i->i)
+		.average().getAsDouble();
+	
+	System.out.println(averageSalary);
+	
+	}
+
+}

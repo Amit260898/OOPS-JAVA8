@@ -1,0 +1,22 @@
+package MapAndFlatMap;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class EkartDatabase {
+	
+	public static List<Customer> getAll(){
+		
+		return Stream.of(
+				new Customer(101,"John","john@gmail.com",Arrays.asList("9876788987")),
+				new Customer(102,"John","john@gmail.com",Arrays.asList("9876788987")),
+				new Customer(103,"John","john@gmail.com",Arrays.asList("9876788987")),
+				new Customer(104,"John","john@gmail.com",Arrays.asList("9876788987"))
+								
+				).collect(Collectors.toList());
+	}
+
+}

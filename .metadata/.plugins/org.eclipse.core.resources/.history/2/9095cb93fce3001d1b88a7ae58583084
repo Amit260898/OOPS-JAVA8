@@ -1,0 +1,22 @@
+package Lambda;
+
+public class CalculatorImp{
+
+	
+	
+	public static void main(String[] args) {
+		
+	
+	Calculator calculator=	() ->{
+			// TODO Auto-generated method stub
+			System.out.println("switch is on");
+			
+		};
+		
+	}
+
+	
+
+}
+
+//() -> (body);

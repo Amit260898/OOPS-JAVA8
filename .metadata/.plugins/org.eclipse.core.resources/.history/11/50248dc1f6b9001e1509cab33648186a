@@ -1,0 +1,20 @@
+package intoduction;
+
+public class TestMain {
+	
+final String panCardString;
+
+	public TestMain(String panCardString) {
+	super();
+	this.panCardString = panCardString;
+}
+	static {
+		System.out.println("program can execute without main");
+	}
+	public static void main(String[] args) {
+		TestMain testMain=new TestMain("amit");
+		System.out.println(testMain.panCardString);
+	}
+	
+
+}
